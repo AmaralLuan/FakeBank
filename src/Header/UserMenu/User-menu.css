@@ -1,0 +1,10 @@
+.User-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 100%;
+    width: 23rem;
+    padding: 0 2rem;
+}
+

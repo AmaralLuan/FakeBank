@@ -1,0 +1,40 @@
+.User-nav {
+    width: 15rem;
+    height: 100%;
+
+    display: flex;
+}
+
+.User-nav__notificationBox {
+    padding: 0 2rem;
+    width: 7rem;
+    height: 100%;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    transition: .2s;
+
+    cursor: pointer;
+}
+
+.User-nav__notificationBox:hover {
+    background-color: var(--Grey-light-3);
+}
+
+.User-nav__notificationBox img {
+    width: 2.25rem;
+    height: 2.25rem;
+}
+
+.User-nav__notificationBox span {
+    position: absolute;
+    font-size: 1rem;
+
+    top: 20%;
+    right: 25%;
+    padding: .2rem .5rem;
+    background-color: red;
+    color: #fff;
+    border-radius: 50%;
+}

@@ -1,0 +1,30 @@
+.Card {
+    width: 48%;
+    background-color: #fff;
+    padding: 1rem 2rem;
+
+    border-radius: 8px;
+
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.19);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.19);
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.19);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Card__title {
+    font-size: 2.5rem;
+    color: var(--primary);
+}
+
+.Card__value {
+    font-size: 2.5rem;
+    color: var(--Grey-dark-3);
+}
+
+.Card img {
+    width: 2rem;
+    height: 2rem;
+}
